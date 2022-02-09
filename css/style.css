@@ -1,13 +1,13 @@
 h1 {
   text-align: center;
-  margin: 15px;
+  margin: 30px 0 15px 0px;
   color: rgb(129, 128, 128);
-
+  font-size: 20px;
 }
 
 h2 {
   text-align: center;
-  margin: 15px;
+  margin: 30px 0 15px 0px;
   color:rgb(129, 128, 128)
   font-family: Helvetica;  
 }
@@ -18,10 +18,12 @@ body {
 }
 
 img {
-  width: 250px;
-  height: 450px;
+  width: 30%;
+  height: 35%;
 }
 
 div {
   display: inline-block;
+  position: relative;
+  
 }
