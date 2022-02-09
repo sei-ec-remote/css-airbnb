@@ -1,3 +1,46 @@
+body {
+  background-color: rgb(236, 235, 235);
+}
+h1, p {
+  color: grey;
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  font-size: 30px;
+  margin: 10px 0px 5px 0px
+}
+p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.top_pics, .bottom_pics {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+
+.topPhoto, .bottomPhoto {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#allGuidebooks, #allDestinations {
+  text-align: center;
+  background: white;
+  border: 2px solid gray;
+  padding: 10px 0px 10px 0px;
+  margin: 25px 500px 25px 500px;
 }
