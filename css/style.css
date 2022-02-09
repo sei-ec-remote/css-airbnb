@@ -1,3 +1,93 @@
 h1 {
-  color: salmon;
+  color: #565a5d;
+  text-align: center;
+  font-family: "Roboto:wght@300", sans-serif;
 }
+
+h2 {
+  color: gray;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding: 10px
+}
+
+.cities {
+  display: inline-block;
+}
+
+.button {
+  height: 70px;
+  width: 400px;
+  background-color: white;
+  color: #565a5d;
+  padding: 50px 
+  text-align: center;
+  display: inline-block
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sanfran {
+  position: absolute;
+  top: 275px;
+  left: 160px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
+}
+
+.newyork {
+  position: absolute;
+  top: 275px;
+  left: 525px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
+}
+
+.london {
+  position: absolute;
+  top: 275px;
+  right: 200px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
+}
+
+.napa {
+  position: absolute;
+  bottom: -275px;
+  left: 230px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
+}
+
+.sonoma {
+  position: absolute;
+  bottom: -275px;
+  left: 540px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
+}
+
+.sanfran2 {
+  position: absolute;
+  bottom: -275px;
+  right: 155px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto:wght@300", sans-serif;
+  font-size: 40px;
