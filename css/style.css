@@ -1,19 +1,25 @@
 h1 {
+  text-align: center;
+  margin: 15px;
   color: rgb(129, 128, 128);
+
 }
 
 h2 {
+  text-align: center;
+  margin: 15px;
   color:rgb(129, 128, 128)
   font-family: Helvetica;  
 }
 
 body {
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(214, 214, 214);
+  font-family: Helvetica; 
 }
 
 img {
-  width: 100px;
-  height: 200px;
+  width: 250px;
+  height: 450px;
 }
 
 div {
