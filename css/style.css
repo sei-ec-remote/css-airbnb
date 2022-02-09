@@ -25,6 +25,9 @@ img {
   display: inline-block;
   position: relative;
 }
+div{
+  margin: 0px 50px 0px 50px;
+}
 
 .button {
   color: rgb(129, 128, 128);
