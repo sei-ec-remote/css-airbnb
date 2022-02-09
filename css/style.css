@@ -24,9 +24,9 @@ img {
   height: 30%; 
 }
 div{
-  margin: 10px 100px 10px 100px;
-  position: relative;
+  position: absolute;
   display: inline-block;
+
 }
 
 .button {
