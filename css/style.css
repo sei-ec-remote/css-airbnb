@@ -1,3 +1,37 @@
-h1 {
-  color: salmon;
+header {
+  color: light grey;
+  text-align: center;
+}
+
+img {
+  width: 375px;
+  height: 375px;
+  display:inline;
+  margin: 10px;
+  padding: 25px;
+
+}
+.guidebooks {
+  text-align: center;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;  
+}
+#weekend {
+  font-size: 30px;
+  margin: 30px;
+}
+.guide {
+  text-align: center;
+}
+
+.destinations {
+  text-align: center;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;  
+}
+
+.firstset {
+  text-align: center;
 }
