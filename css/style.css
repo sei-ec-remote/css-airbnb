@@ -3,7 +3,7 @@ h1 {
   margin: 30px 0 15px 0px;
   color: rgb(129, 128, 128);
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 h2 {
@@ -11,6 +11,7 @@ h2 {
   margin: 30px 0 15px 0px;
   color: rgb(129, 128, 128);
   font-size: 15px; 
+  font-weight: 100;
 }
 
 body {
@@ -21,10 +22,14 @@ body {
 img {
   width: 30%;
   height: 35%;
-}
-
-div {
   display: inline-block;
   position: relative;
-  
+}
+
+button {
+  color: rgb(129, 128, 128);
+  background-color: white;
+  border: 3px;
+  border-color: rgb(129, 128, 128); 
+
 }
