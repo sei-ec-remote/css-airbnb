@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+body {
+  background-color: #EDEFEC;
+}
+
+.main {
+  margin: 80px;
+}
+
+.head {
+  color: #575A5E;
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+.cities-container {
+  text-align: center;
+}
+.city-block {
+  display: inline-block;
+  margin: 30px 10px;
+}
+.city-pic {
+}
+.city-txt {
+  color: white;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: -150px;
+}
+
+.button-container {
+  margin: 150px 0 60px 0;
+  text-align: center;  
+}
+
+button {
+  padding: 10px;
+  background: whitesmoke;
+  font-weight: bold;
+  font-size: 15px;
+  width: 300px;
+}
+
 h1 {
-  color: salmon;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+img {
+  width: 275px;
+  height: 300px;
+  object-fit: cover;
 }
