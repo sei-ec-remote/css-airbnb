@@ -26,10 +26,10 @@ img {
   position: relative;
 }
 
-button {
+.button {
   color: rgb(129, 128, 128);
   background-color: white;
   border: 3px;
+  padding: 5px 15px 5px 15px;
   border-color: rgb(129, 128, 128); 
-
 }
