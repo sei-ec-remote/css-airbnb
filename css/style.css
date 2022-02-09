@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+
+body {
+  background-color: rgb(208, 216, 216);
+}
+
+
+.container {
+  position: relative;
+  max-width: 100%;
+  max-height: ;
+}
+
+#introtext {
+  color: grey;
+  text-align: center;
+}
+
+.cities {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.button {
+  font-weight: bold;
+  cursor: pointer;
+  border: solid lightgrey;
+  color: grey;
+  background-color: white;
+  font-size: 15px;
+  width:200px; 
+  margin: 40px -50px; 
+  position:relative;
+  top:50%; 
+  left:48%;
+  
+}
+.pictures {
+
+}
+
+
+#New {
+padding: 0 20em ;
+}
+
+#sonoma {
+  padding: 0 20em ;
 }
