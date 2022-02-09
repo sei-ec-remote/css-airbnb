@@ -22,16 +22,14 @@ body {
 img {
   width: 20%;
   height: 30%; 
-  margin: auto;
+  
 }
 div{
-  margin: auto;
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
-p{
-  align-items: center;
-}
+
 
 .button {
   color: rgb(129, 128, 128);
