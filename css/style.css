@@ -1,3 +1,56 @@
 h1 {
-  color: salmon;
+  color: slategray;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.firstRow{
+  display: inline-block;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.first {
+  padding: 20px;
+}
+
+.second{
+  padding: 20px;
+}
+
+.third{
+  padding: 20px;
+}
+
+.secondRow{
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.button{
+text-align: center;
+margin: auto;
+}
+
+button{
+  background-color: white;
+  height: 80px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.test{
+  position: relative;
+  border: 0px;
+}
+
+.sanFran {
+  position: absolute;
+  color: white;
+ bottom: 120px;
+ left: 70px;
 }
