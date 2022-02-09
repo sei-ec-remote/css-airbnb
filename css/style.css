@@ -24,10 +24,10 @@ img {
   height: 30%;
   display: inline-block;
   position: relative;
-  margin: auto;
+  margin: 20px;
 }
 div{
-  margin: 0px 100px 0px 100px;
+  margin: 10px 100px 10px 100px;
   align-items: center;
 }
 
