@@ -1,24 +1,48 @@
-
 body {
+  background-size: 0;
   background-color: rgb(208, 216, 216);
 }
 
-
 .container {
   position: relative;
-  max-width: 100%;
-  max-height: ;
+
 }
 
 #introtext {
   color: grey;
   text-align: center;
 }
+.citiesContainer{
+  position: relative;
+ 
+}
+
 
 .cities {
-  color: white;
-  text-align: center;
+color: rgb(255, 255, 255);
+font-size: 25px;
+position: absolute;
+display: flex;
+flex-wrap: nowrap;
+gap: 30px;
+position: relative;
+justify-content: space-around;
+top: 5em;
+right: 1em;
+z-index: 1;
+}
+
+.cities2 {
+  color: rgb(255, 255, 255);
   font-size: 25px;
+  position: absolute;
+  display: flex;
+ flex-wrap: nowrap;
+ gap: 30px;
+ position: relative;
+ justify-content: space-around;
+ top: 15em;
+ z-index: 1;
 }
 
 
@@ -34,17 +58,42 @@ body {
   position:relative;
   top:50%; 
   left:48%;
-  
 }
+
 .pictures {
-
+text-align: center;
+border-radius: 50%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+gap: 30px;
+align-items: baseline;
+z-index: 2;
 }
 
+#san {
+
+  padding: 0 20em ;
+}
 
 #New {
-padding: 0 20em ;
+padding: 0 5em ;
+}
+
+#London {
+  padding: 0 15em ;
+}
+
+
+#napa {
+  padding: 0 15em ;
 }
 
 #sonoma {
-  padding: 0 20em ;
+  padding: 0 15em ;
+}
+
+#san2{
+  padding: 0 15em ;
 }
