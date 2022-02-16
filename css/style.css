@@ -13,6 +13,9 @@ button {
   color: rgb(101, 105, 107);
   font-family: Arial;
   padding: 10px 60px;
+  display: block;
+  margin: auto;
+  
 }
 
 div {
@@ -36,6 +39,7 @@ p {
   text-align: center;
   color: white;
 }
+
 
 .centered {
   position: absolute;
