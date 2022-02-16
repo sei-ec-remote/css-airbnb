@@ -1,3 +1,40 @@
-h1 {
-  color: salmon;
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+
+<div class="row1">
+  <div class="column">
+    <img src="san-francisco.jpg" alt="San Francisco" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="new-york.jpg" alt="New York" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="london.jpg" alt="London" style="width:100%">
+  </div>
+</div>
+
+<div class="row2">
+  <div class="column">
+    <img src="napa.jpg" alt="Napa" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Sonoma.jpg" alt="Sonoma" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="san-francisco-2.jpg" alt="San Francisco 2" style="width:100%">
+  </div>
+</div>
+
+
