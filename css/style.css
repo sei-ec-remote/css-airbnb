@@ -21,13 +21,69 @@ h4 {
     width:  300px;
     height: 400px;
     object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;  
-    text-align: center; 
-    margin: o auto;  
     }
 
+    .guidebook-img {
+      display : flex; 
+      justify-content: center;
+
+    }
+
+    .destination-img {
+      display : flex;
+      justify-content: center;
+    }
+
+    .newYork {
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      color: white;
+      font-size: 32px;
+    }
+
+    .sanFran {
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      color: white;
+      left: 15%;
+      font-size: 32px;
+    }
+    .london {
+      position: absolute;
+      top: 40%;
+      left: 75%; 
+      z-index: 1;
+      color: white;
+      font-size: 32px;
+    }
+
+    .napa {
+      position: absolute;
+      bottom: -10%;
+      z-index: 1;
+      color: white;
+      font-size: 32px;
+    }
+
+    .sonoma {
+      position: absolute;
+      bottom: -10%;
+      z-index: 1;
+      color: white;
+      left: 20%;
+      font-size: 32px;
+    }
+    .sanFran2 {
+      position: absolute;
+      bottom: -10%;
+      left: 70%; 
+      z-index: 1;
+      color: white;
+      font-size: 32px;
+    }
 
  
 button {
