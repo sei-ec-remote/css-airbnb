@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-   color: #636363;
+  color: #636363;
   font-family: Arial, Helvetica, sans-serif;
   margin: -15px 0 30px 0;
 }
@@ -22,7 +22,75 @@ img {
   height: 250px;
   width: 250px;
   margin: 5px;
+  z-index: 0
 }
+
+#sf {
+  position: absolute;
+  top: 27.5%;
+  left: 22.5%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#ny {
+  position: absolute;
+  top: 27.5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#london {
+  position: absolute;
+  top: 27.5%;
+  left: 78%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#napa {
+  position: absolute;
+  top: 79%;
+  left: 22.5%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#sonoma {
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+#sf2 {
+  position: absolute;
+  top: 79%;
+  left: 78%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 32px;
+  font-family: Arial;
+}
+
+
+
+
+
+
+
 
 button {
   text-align: center;
@@ -38,7 +106,10 @@ button {
 }
 
 #wrapper {
+  position: relative;
   margin-left:auto;
   margin-right:auto;
   width:960px;
+  z-index: 1;
 }
+
