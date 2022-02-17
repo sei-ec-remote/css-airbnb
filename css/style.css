@@ -4,6 +4,12 @@ h1, h3 {
 }
 body {
   text-align: center;
+  position: absolute;
+  width: 1300px;
+}
+#main-div, .new-places {
+  position: relative;
+  width: 1300px;
 }
 #sanfrancisco {
   display: inline-block;
@@ -14,8 +20,8 @@ body {
 }
 .sf{
 position: absolute;
-top: 35%;
-left: 32%;
+top: 45%;
+left: 25%;
 transform: translate(-50%, -50%);
 color: white;
 font-size: 35px;
@@ -28,7 +34,7 @@ font-size: 35px;
 }
 .ny{
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -42,8 +48,8 @@ font-size: 35px;
 }
 .lon{
   position: absolute;
-  top: 35%;
-  left: 68%;
+  top: 45%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 35px;
@@ -56,8 +62,8 @@ font-size: 35px;
 }
 .napa{
   position: absolute;
-  top: 98%;
-  left: 32%;
+  top: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 35px;
@@ -70,7 +76,7 @@ font-size: 35px;
 }
 .son{
   position: absolute;
-  top: 98%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -84,8 +90,8 @@ font-size: 35px;
 }
 .sf2{
   position: absolute;
-  top: 98%;
-  left: 68%;
+  top: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 35px;
