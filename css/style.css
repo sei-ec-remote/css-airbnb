@@ -1,79 +1,122 @@
-
 body {
-  background-color:rgb(237,239,236)
-  text-align: center;
+  background-color: rgb(235, 255, 235)
 }
-
-
 
 h1 {
-  color: rgb(3, 34, 0);
+  color: rgb(80, 83, 81);
   text-align: center;
 }
-
-p {
+h2 {
+  color: rgb(80, 83, 81);
   text-align: center;
 }
-
-/*
-div {
-  display:  inline;
+h3 {
+  color: rgb(80, 83, 81);
+  text-align: center;
+  font-size: 40px;
+}
+h4 {
+  color: rgb(80, 83, 81);
+  text-align: center;
+  font-size: 24px;
+}
+/* img {
+  width:  300px;
+  height: 400px;
+  object-fit: cover;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
-}
+  padding: 20px;  
+  text-align: center; 
+  margin: o auto;  
+  } */
 
-*/
 
-/*
-div1 {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-}
-*/
-.button {
-
-  display: flex;
+/* .guidebook-img {
+  display : flex; 
   justify-content: center;
-  background-color: white;
-  border: none; 
-  color: darkolivegreen; 
-  padding: 5px 5px;
-  text-align: center;  
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  width: 250px;
-  }
-
-  .row {
-    display: flex;
-  }
+  align-items: baseline;
+  gap: 10px 20px;
+  flex-shrink: 3;
   
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
 
-  /* Centered text */
-.centered {
-  position: absolute;
-  top: 35%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 25px;
 }
 
- /* #image-grid img {
-    text-align: center;
-    max-width: 500px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 15px
+.destination-img {
+  display : flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px 20px;
+} */
+
+
+
+.newYork {
+  display: block
+  position: absoulte;
+  top: 25%;
+  right: 89%;
+  z-index: 7;
+  color: hotpink;
+  font-size: 32px;
   }
-  */
+
+.sanFran {
+position: absolute;
+top: 25%;
+z-index: 1;
+color: hotpink;
+left: 15%;
+font-size: 32px;
+}
+.london {
+position: relative;
+top: 40%;
+left: 75%; 
+z-index: 1;
+color: hotpink;
+font-size: 32px;
+}
+
+.napa {
+position: relative;
+bottom: -10%;
+z-index: 1;
+color: hotpink;
+font-size: 32px;
+}
+
+.sonoma {
+position: relative;
+bottom: -10%;
+z-index: 1;
+color: hotpink;
+left: 20%;
+font-size: 32px;
+}
+.sanFran2 {
+position: relative;
+bottom: -10%;
+left: 70%; 
+z-index: 1;
+color: hotpink;
+font-size: 32px;
+}
+
+  /* .text {
+    position: flex; 
+    justify-content: center;
+    align-items: baseline;
+    z-index: 7;
+    color:hotpink;
+  } */
+
+
+button {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 44%;
+  font-size: 18px;
+  border: 2px solid green;
+}
