@@ -10,84 +10,64 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+span {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
 img {
   width: 300px;
   height: 300px;
   padding: 10px
 }
 
-.cities {
-  display: inline-block;
-}
-
-.button {
+#button1 {
   height: 70px;
   width: 400px;
   background-color: white;
   color: #565a5d;
-  padding: 50px 
+  padding: 50px;
   text-align: center;
-  display: inline-block
   font-family: "Roboto:wght@300", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
 
-.sanfran {
-  position: absolute;
-  top: 275px;
-  left: 160px;
+#button2 {
+  height: 70px;
+  width: 400px;
+  background-color: white;
+  color: #565a5d;
+  padding: 50px;
   text-align: center;
-  color: white;
   font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.newyork {
-  position: absolute;
-  top: 275px;
-  left: 525px;
-  text-align: center;
-  color: white;
-  font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+
 }
 
-.london {
-  position: absolute;
-  top: 275px;
-  right: 200px;
-  text-align: center;
+.city-name {
   color: white;
+  z-index: 1;
+  position: absolute;
+  font-size: 25px;
   font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.napa {
-  position: absolute;
-  bottom: -275px;
-  left: 230px;
+.city-container {
+  z-index: 0;
+  position: relative;
   text-align: center;
-  color: white;
-  font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
 }
-
-.sonoma {
-  position: absolute;
-  bottom: -275px;
-  left: 540px;
-  text-align: center;
-  color: white;
-  font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
-}
-
-.sanfran2 {
-  position: absolute;
-  bottom: -275px;
-  right: 155px;
-  text-align: center;
-  color: white;
-  font-family: "Roboto:wght@300", sans-serif;
-  font-size: 40px;
