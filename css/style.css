@@ -20,96 +20,77 @@ h4 {
   text-align: center;
   font-size: 24px;
 }
-/* img {
-  width:  300px;
-  height: 400px;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;  
-  text-align: center; 
-  margin: o auto;  
-  } */
 
+.img {
+  max-width: 600px;
+  max-height: 800px;
+  padding: 30px;
+}
 
-/* .guidebook-img {
-  display : flex; 
-  justify-content: center;
-  align-items: baseline;
-  gap: 10px 20px;
-  flex-shrink: 3;
-  
+.guidebook-img {
+  position: relative;
+  text-align: center;
+  display: flex;
+  left: 10%; 
+  width: min-content;
 
 }
 
 .destination-img {
-  display : flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 10px 20px;
-} */
-
-
-
-.newYork {
-  display: block
-  position: absoulte;
-  top: 25%;
-  right: 89%;
-  z-index: 7;
-  color: hotpink;
-  font-size: 32px;
-  }
+  position: relative;
+  text-align: center;
+  display: flex;
+  left: 10%;
+  width: min-content;
+}
 
 .sanFran {
-position: absolute;
-top: 25%;
-z-index: 1;
-color: hotpink;
-left: 15%;
-font-size: 32px;
+  position: absolute;
+  left: 250px;
+  top: 175px;
+  font-size: 32px;
+  color: white;
 }
+
+.newYork {
+  position: absolute;
+  font-size: 32px;
+  left: 930px;
+  top: 175px;
+  color: white;
+}
+
 .london {
-position: relative;
-top: 40%;
-left: 75%; 
-z-index: 1;
-color: hotpink;
-font-size: 32px;
+  position: absolute;
+  font-size: 32px;
+  left: 1600px;
+  top: 175px;
+  color: white;
 }
 
 .napa {
-position: relative;
-bottom: -10%;
-z-index: 1;
-color: hotpink;
-font-size: 32px;
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  font-size: 32px;
+  color: white;
 }
 
 .sonoma {
-position: relative;
-bottom: -10%;
-z-index: 1;
-color: hotpink;
-left: 20%;
-font-size: 32px;
-}
-.sanFran2 {
-position: relative;
-bottom: -10%;
-left: 70%; 
-z-index: 1;
-color: hotpink;
-font-size: 32px;
+  position: absolute;
+  font-size: 32px;
+  left: 930px;
+  top: 300px;
+  color: white;
 }
 
-  /* .text {
-    position: flex; 
-    justify-content: center;
-    align-items: baseline;
-    z-index: 7;
-    color:hotpink;
-  } */
+.sanFran2 {
+  position: absolute;
+  font-size: 32px;
+  left: 1580px;
+  top: 300px;
+  color: white;
+}
 
 
 button {
