@@ -1,0 +1,135 @@
+body {
+  background-color:rgb(231, 224, 224); 
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+}
+
+
+
+
+button {
+  border-radius: 2px;
+  font-size: 20px;
+  background-color: white;
+  color: rgb(102, 98, 98);
+  border: 2px solid rgb(82, 78, 78);
+  text-align: center;
+  margin: 50px 20px;
+}
+.button-align {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+
+h1 {
+  color: rgb(82, 65, 64);
+  font-size: 60px; 
+  text-align: center;
+}
+
+h2 {
+  color:rgb(82, 65, 64);
+  font-size: 25px;
+  text-align: center;
+}
+
+
+ #container1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+
+#london {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/Z1hmnp5/london.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+#new-york{
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/G7M9GmQ/new-york.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+    justify-content: space-between;
+}
+
+#napa {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/Sn00b2K/napa.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+#sonoma {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/wcyw59Y/sonoma.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+#san-francisco1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/5YGmvbH/san-francisco.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+
+#san-francisco2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://i.ibb.co/FY7423X/san-francisco-2.jpg');
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
