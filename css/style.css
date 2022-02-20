@@ -26,12 +26,23 @@ p{
 
 
 .topPhoto, .bottomPhoto {
+  
   width: 250px;
   height: 250px;
   margin: 0 auto;
   background-size: cover;
   display: flex;
   justify-content: center;
+  z-index: 10;
+  position: relative;
+}
+
+.imgTxt {
+  position: relative;
+  z-index: 20;
+  font-size: 25px;
+  margin-top: -130px;
+  margin-bottom: 120px;
 }
 
 
