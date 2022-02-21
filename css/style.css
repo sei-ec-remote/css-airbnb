@@ -1,3 +1,99 @@
-h1 {
-  color: salmon;
+body {
+  background: rgb(211, 211, 211)
+}
+
+.title, .subtitle {
+  color: rgb(93, 89, 89);
+  font-weight: bold;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+#button1 {
+  color: rgb(93, 89, 89);
+  background-color: white;
+  text-emphasis: bold;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 60px 10px 60px;
+  margin: 50px 50px 50px 50px;
+}
+
+#button2 {
+  color: rgb(93, 89, 89);
+  background-color: white;
+  text-emphasis: bold;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 60px 10px 60px;
+  margin: 50px 50px 50px 50px;
+}
+
+#SF {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/san-francisco.jpg");
+  background-repeat: no-repeat;
+  margin: 50px 0px 0px 220px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
+}
+
+#NY {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/new-york.jpg");
+  background-repeat: no-repeat;
+  margin: 10px 15px 0px 0px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
+}
+
+#London {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/london.jpg");
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
+}
+
+#Napa {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/napa.jpg");
+  background-repeat: no-repeat;
+  margin: 50px 25px 0px 275px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
+}
+
+#Sonoma {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/sonoma.jpg");
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
+}
+
+#SF2 {
+  padding: 5em;
+  background-image: url("/Users/daenamcclintock/css-airbnb/img/san-francisco-2.jpg");
+  background-repeat: no-repeat;
+  margin: 10px 15px 0px 0px;
+  background-size: 300px 400px;
+  background-position: center;
+  display: inline-flex;
+  color: white;
 }
