@@ -1,3 +1,31 @@
-h1 {
-  color: salmon;
+h1,h3 {
+  color: gray;
+  text-align: center;
+}
+
+#box {
+  height: 100vh;
+}
+
+.container {
+  margin: 30px;
+  display: inline-flex;
+  height: 300px;
+  width: 300px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  position: absolute;
+  font-size: xx-large;
+  color: white;
+  font-style: bolder;
+}
+
+#london {
+text-align: center; 
 }
