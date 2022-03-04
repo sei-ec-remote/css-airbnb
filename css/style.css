@@ -2,32 +2,31 @@ body {
   background-color: rgb(247, 247, 247); 
 }
 
-.san-fran-1 {
-  background-image: url(..\img\san-francisco.jpg);
+#san-fran-1 {
+  background-image: url(../img/san-francisco.jpg);
 
 }
-.new-york {
-  background-image: url(..\img\new-york.jpg);
+#new-york {
+  background-image: url(../img/new-york.jpg);
 }
 
-.london {
-  background-image: url(..\img\london.jpg);
+#london {
+  background-image: url(../img/london.jpg);
 }
 
-.napa {
-  background-image: url(..\img\napa.jpg);
+#napa {
+  background-image: url(../img/napa.jpg);
 }
 
-.sonoma {
-  background-image: url(..\img\sonoma.jpg);
+#sonoma {
+  background-image: url(../img/sonoma.jpg);
 }
 
-.san-fran-2 {
-  background-image: url(..\img\san-francisco-2.jpg);
+#san-fran-2 {
+  background-image: url(../img/san-francisco-2.jpg);
 }
 
 h1 {
-  color: salmon;
   text-align: center;
   margin-top: 50px;
 }
@@ -38,6 +37,7 @@ h2 {
 }
 p {
   text-align: center;
+  font: 60px;
 }
 
 .button {
@@ -49,12 +49,21 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .city {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   text-align: center;
-  background-size: 200px 200px;
+  height: 100px;
+  width: 100px;
   padding: 100px 100px 100px 100px;
+  margin: 10px 35px 10px 35px;
+  font-size: 30px;
+  background-size: cover;
+  color: whitesmoke;
 }
 
 button {
