@@ -1,3 +1,90 @@
+body {
+  text-align: center;
+  font-family: arial;
+  max-width: 100%
+}
+
 h1 {
   color: salmon;
+  text-align: center;
 }
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 25px 190px 25px 190px;
+  font-size: 20px;
+}
+
+img {
+  display: inline;
+  margin: 30px auto auto auto;
+  width: 30%
+}
+
+
+
+#second-row {
+  
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+#san-fran-caption{
+  top: 240px;
+  left: 210px;
+}
+
+#new-york-caption {
+  top: 240px;
+  left: 850px;
+}
+
+#london-caption {
+  top: 240px;
+  left: 1450px;
+}
+
+#napa-caption {
+  top: 1015px;
+  left: 325px;
+}
+
+#sonoma-caption {
+  top: 1015px;
+  left: 875px;
+}
+
+#san-fran-two-caption {
+  top: 1015px;
+  left: 1400px;
+}
+
+.caption{
+  display: inline-block;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+
+
+
+.image {
+  max-width: 30%
+}
+
+.first-row-div {
+  display: inline;
+  padding: 5px;
+}
+
+.second-row-div {
+  display: inline;
+  padding: 5px;
+}
+
+
+
