@@ -1,64 +1,71 @@
-       body {
-           background-color: lightgray;
-       }
-       
-       h1,
-       h3 {
-           color: gray;
-           text-align: center;
-       }
-       
-       button {
-           display: flex;
-           justify-content: center;
-           cursor: pointer;
-       }
+body {
+  background-color: lightgray;
+}
 
-       /* p{
+h1,
+h3 {
+  color: gray;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* p{
            font-size: 100px ;
        } */
 
-       .img-container{
-           display: flex;
-           /* width: 30px;
-           height: 30px; */
-           justify-content: space-evenly;
-       }
-       
-       img {
-           position: relative;
-           align-items: center;
-           width: 400px;
-           height: 300px;
-           margin: 0 15px 0 15px;
-       }
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
-       .button-container{
-           display: flex;
-           justify-content: center;
-       }
-       
-       .button {
-           display: flex;
-           justify-content: cen ter; 
-           /* margin-left: 300px; */
-           border: 1px solid gray;
-           padding: 10px 100px 10px 100px;
-           color: gray;
-           background-color: white;
-       }
-       
-       .center {
-           /* display: flex;
+img {
+  position: relative;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  margin: 0 15px 0 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: cen ter;
+  /* margin-left: 300px; */
+  border: 1px solid gray;
+  padding: 10px 100px 10px 100px;
+  color: gray;
+  background-color: white;
+}
+
+.center {
+  /* display: flex;
            justify-content: center; */
-           color: white;
-           font-size: 50px;
-       }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
 
-       .city-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin: 0 100px 0 0;
-       }
+.city-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px 0 0;
+}
 
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
