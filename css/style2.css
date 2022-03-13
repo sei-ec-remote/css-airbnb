@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.ny {
+  background-image: url('img/new-york.jpg');
+  width: 100%;
+}
+.london {
+  background-image: url('img/london.jpg');
+  width: 100%;
+}
+.napa {
+  background-image: url('img/napa.jpg');
+  width: 100%;
+}
+.san-fran1 {
+  background-image: url('img/san-francisco.jpg');
+  width: 100%;
+}
+.san-fran2 {
+  background-image: url('img/san-francisco-2.jpg');
+  width: 100%;
+}
+.sonoma {
+  background-image: url('img/sonoma.jpg');
+  width: 100%;
+}
