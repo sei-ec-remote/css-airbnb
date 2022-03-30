@@ -1,6 +1,16 @@
-.grid-container {
+.grid-container1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .ny {
   background-image: url('img/new-york.jpg');
@@ -25,4 +35,26 @@
 .sonoma {
   background-image: url('img/sonoma.jpg');
   width: 100%;
+}
+.text {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  color: azure;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: gray;
+}
+.button {
+  position: absolute;
+  left: 45%;
+}
+h5 {
+  text-align: center;
+
+  color: gray;
 }
