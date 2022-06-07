@@ -1,54 +1,83 @@
 body {
+  background-color: #EDEFEC;
   text-align: center;
-  font-family: sans-serif; /* until i can figure out airbnb's fonts */
+  font-family: sans-serif; /* unfortunately, i could not figure out the airbnb font :( */
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 12pt;
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-size: 6pt;
+  font-weight: normal;
+}
+
+h1, h2 {
+  color: #565b5e;
 }
 
 .section-block {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .box-location-general {
   color: white;
-  background: #999; /* just until the images go in */
+  font-size: 12pt;
   display: inline-block;
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
+  width: 150px;
+  height: 162px;
+  line-height: 162px;
   font-weight: bold;
-  margin: 0 6px 30px 6px;
-}
+  margin: 15px 4px 20px 4px;
+} 
 
 #box-guidebooks-sf {
   background: url("/img/san-francisco.jpg");
-  background-size: cover;
+  background-size: 162%;
+  background-position: center;
 }
 
 #box-guidebooks-ny {
   background: url("/img/new-york.jpg");
-  background-size: cover;
+  background-size: 162%;
+  background-position: center;
 }
 
 #box-guidebooks-london {
   background: url("/img/london.jpg");
-  background-size: cover;
+  background-size: 162%;
+  background-position: center;
 }
 
 #box-weekend-napa {
   background: url("/img/napa.jpg");
-  background-size: cover;
+  background-size: 108%;
+  background-position: center;
 }
 
 #box-weekend-sonoma {
   background: url("/img/sonoma.jpg");
-  background-size: cover;
+  background-size: 109%;
+  background-position: center;
 }
 
 #box-weekend-sf {
   background: url("/img/san-francisco-2.jpg");
-  background-size: cover;
+  background-size: 109%;
+  background-position: center;
 }
 
 input[type="submit"] {
   display: block;
   margin: auto;
+  width: 150px;
+  height: 24px;
+  color: #57585C;
+  font-size: 8px;
+  background: #fff;
+  border: 1px solid #999;
+  font-weight: bold;
 }
