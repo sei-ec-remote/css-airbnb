@@ -32,15 +32,16 @@ button {
 }
 
 .cities {
-  display: flex;
+  display: inline-block;
   margin: 0 auto;
+  position: relative;
 }
 
 .text {
   left: 0;
   position: absolute;
   text-align: center;
-  top: 140px;
+  top: 40%;
   width: 100%;
   font-weight: 700;
   color: white;
