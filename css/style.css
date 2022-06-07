@@ -7,7 +7,7 @@ body {
   margin-bottom: 50px;
 }
 
-.location-img-box {
+.box-location-general {
   color: white;
   background: #999; /* just until the images go in */
   display: inline-block;
@@ -16,6 +16,36 @@ body {
   line-height: 200px;
   font-weight: bold;
   margin: 0 6px 30px 6px;
+}
+
+#box-guidebooks-sf {
+  background: url("/img/san-francisco.jpg");
+  background-size: cover;
+}
+
+#box-guidebooks-ny {
+  background: url("/img/new-york.jpg");
+  background-size: cover;
+}
+
+#box-guidebooks-london {
+  background: url("/img/london.jpg");
+  background-size: cover;
+}
+
+#box-weekend-napa {
+  background: url("/img/napa.jpg");
+  background-size: cover;
+}
+
+#box-weekend-sonoma {
+  background: url("/img/sonoma.jpg");
+  background-size: cover;
+}
+
+#box-weekend-sf {
+  background: url("/img/san-francisco-2.jpg");
+  background-size: cover;
 }
 
 input[type="submit"] {
