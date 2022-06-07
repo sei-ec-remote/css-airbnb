@@ -1,3 +1,70 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: #edefec;
+}
+
+h2 {
+  color: #747879;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: #747879;
+  margin-bottom: 40;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  margin: 5px;
+}
+
+.column {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.column2 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -175px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+#guidebooks {
+  background-color: white;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  font-size: 200px;
+}
+
+input {
+  width: 325px;
+  height: 50px;
+  background-color: white;
+  color: #747879;
+  border-color:#747879;
+  border-style: solid;
+  font-size: 18px;
+  text-align:center;
+  margin: 50px auto 50px auto;
 }
