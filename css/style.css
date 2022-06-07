@@ -1,3 +1,72 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #EDEFEC;
+  color: #565A5C;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-spacing:15px 15px;
+
+}
+
+td{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin:10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+button[type=button]  {
+  padding: 8px 40px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #565A5C;
+
+}
+
+#San-Fransisco-Guidebook {
+  background-image:url("/img/san-francisco.jpg");
+}
+
+#New-York-Guidebook {
+  background-image:url("/img/new-york.jpg");
+}
+
+#London-Guidebook {
+  background-image:url("/img/london.jpg")
+}
+
+#Napa-Weekend {
+  background-image:url("/img/napa.jpg")
+}
+
+#Sonoma-Weekend {
+  background-image:url("/img/sonoma.jpg")
+}
+
+#San-Fransisco-Weekend {
+  background-image:url("/img/san-francisco-2.jpg");
+
 }
