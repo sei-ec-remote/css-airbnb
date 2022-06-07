@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@500&display=swap')
+
 h1 {
-  color: salmon;
+  color: gr;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight:  500;
+  color: #585b60;
+  background-color: #;
 }
