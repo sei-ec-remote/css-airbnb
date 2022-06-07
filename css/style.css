@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 body {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -11,29 +11,33 @@ body {
 }
 
 img {
-  width: 400px;
-  height: 515px;
+  width: 315px;
+  height: 350px;
   margin: 20px;
   overflow:hidden;
   position: relative;
 }
 
 .cities {
-  display: inline-block;
+  display: flex;
   margin: 0 auto;
   position: relative;
 }
 
+p {
+  font-weight: 500;
+}
+
 .container {
-  width: 400px;
-  height: 515px;
-  display: inline;
+  width: 315px;
+  height: 340px;
   position: relative;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   position: relative;
+  margin: 16px;
 }
 
 #san-fran {
@@ -62,14 +66,14 @@ img {
 
 button {
   padding: 10px 20px;
-  width: 470px;
-  height: 65px;
-  font-weight: 500;
+  width: 315px;
+  height: 40px;
+  font-weight: 700;
   color: #56595E;
   background-color: white;
   border: 1px solid #b2b4b8;
   box-sizing: border-box;  
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   margin: 40px 0px;
   /* MARGIN IS GETTING MIXED UP WITH THE CITIES DIV */
