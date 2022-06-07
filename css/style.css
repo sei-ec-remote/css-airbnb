@@ -18,14 +18,22 @@ img {
   position: relative;
 }
 
+.cities {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
 .container {
   width: 400px;
   height: 515px;
-  display: block;
+  display: inline;
   position: relative;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
+  position: relative;
 }
 
 #san-fran {
@@ -67,12 +75,6 @@ button {
   /* MARGIN IS GETTING MIXED UP WITH THE CITIES DIV */
 }
 
-.cities {
-  display: inline-block;
-  margin: 0 auto;
-  position: relative;
-}
-
 .text {
   left: 0;
   position: absolute;
@@ -82,9 +84,4 @@ button {
   font-weight: 700;
   color: white;
   font-size: 2em;
-}
-
-.container {
-  display: block;
-  position: relative;
 }
