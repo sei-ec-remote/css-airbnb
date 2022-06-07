@@ -5,10 +5,8 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  color: #3A3B3C;
+  color: #56595E;
+  background-color: #EDEFEC;
 }
 
 img {
@@ -20,11 +18,11 @@ img {
 button {
   padding: 10px 20px;
   font-weight: 700;
-  color: #3A3B3C;
+  color: #56595E;
 }
 
 .cities {
-  display: inline-block;
+  display: inline;
 }
 
 .text {
@@ -35,7 +33,7 @@ button {
   width: 100%;
   font-weight: 700;
   color: white;
-  font-size: larger;
+  font-size: 2em;
 }
 
 .container {
