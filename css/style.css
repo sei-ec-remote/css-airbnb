@@ -1,3 +1,59 @@
 h1 {
-  color: salmon;
+  font-family: arial;
+  text-align: center;
+  color: gray;
+  margin-bottom: -10px;
+}
+h2 {
+  font-family: arial;
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cityimg {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+.overtext1 {
+  font-size: 20px;
+  color: white;
+  font-family: Arial;
+  font-style: bold;
+  position: absolute;
+  top: 23%;
+  left: 10%;
+}
+
+.overtext2 {
+  font-size: 20px;
+  color: white;
+  font-family: Arial;
+  font-style: bold;
+  position: absolute;
+  top: 85%;
+  left: 10%;
+}
+
+button {
+  vertical-align: middle;
+  background-color: white;
+  text-align: center;
+  font-style: bold;
+  padding: 10px 100px;
+  border-color: lightgray;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 40%;
 }
