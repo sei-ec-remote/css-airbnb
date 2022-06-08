@@ -1,3 +1,36 @@
-h1 {
-  color: salmon;
+body {
+  background: rgba(243, 247, 248, 0.953);
 }
+h1 {
+  color: black;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+div {
+  background-color: white;
+  border: 1px solid black;
+  padding: 1;
+  margin-block: 2;
+}
+
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
