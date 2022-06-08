@@ -1,3 +1,28 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: antiquewhite;
 }
+h2 { 
+  display: inline-block;
+  position: relative;
+  padding: 0 50px 0 50px;
+  bottom: 125px;
+  color:white;
+}
+.top-cities {
+  position:relative;
+  bottom: 20px;
+}
+
+.bottom-cities {
+  position: relative;
+  right: 35px;
+  bottom: 20px;
+}
+
+.favoritestyle {
+  margin-top: 15px;
+  padding: 0px 20px 0px 20px;
+  background-color: transparent;
+}
+
