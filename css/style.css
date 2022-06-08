@@ -1,3 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
 h1 {
-  color: salmon;
+  font-family: 'Poiret One', sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 50px;
+  
+  
+}
+
+
+.sanfran {
+text-align: justify;
+position: absolute;
+left: 230px;
+top: 360px;
+font-size: 50px;
+color: white;
+font-family: 'Poiret One', sans-serif;
+font-weight: bold;
+
+}
+
+.london {
+  text-align: justify;
+  position: absolute;
+  left: 1430px;
+  top: 360px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  
+  }
+
+  .secondbutton {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    vertical-align: middle;
+    
+  
+  
+  
+  
+  }
+
+
+.guidebookbutton {
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  vertical-align: middle;
+  
+
+
+
+
+}
+
+.sonoma {
+  text-align: justify;
+  position: absolute;
+  left: 290px;
+  top: 1190px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  
+  }
+
+
+.napa {
+  text-align: justify;
+  position: absolute;
+  left: 890px;
+  top: 1190px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  
+  }
+
+  .sanfran2 {
+    text-align: justify;
+    position: absolute;
+    left: 1330px;
+    top: 1190px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
+    
+    }
+
+
+
+
+.newyork {
+  text-align: justify;
+  position: absolute;
+  left: 830px;
+  top: 360px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  
+  }
+
+
+header {
+  font-family: 'Poiret One', sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.firstset {
+  display: flex;
+  justify-content: center;
+
+}
+
+.secondset {
+  display: flex;
+  justify-content: center;
+
+}
+
+.secondset img {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+}
+
+
+
+
+.firstset img {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
 }
