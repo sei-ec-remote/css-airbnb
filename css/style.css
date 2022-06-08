@@ -1,3 +1,54 @@
-h1 {
-  color: salmon;
+body{
+  background-color: #edefec;
 }
+
+h4, h2{
+  color:#626365;
+  text-align: center;
+}
+
+.images, .images2 {
+  display: flex;
+}
+
+img{
+  width: 370px;
+  height: 400px;
+}
+span{
+  display:contents;
+  color: white;
+}
+
+button{
+  padding:10px 80px 10px 80px;
+  color: #626365;
+  font-size: 15px;
+  justify-content: center;
+  margin: 25px 35%;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #626365;
+  font-weight: bold;
+  text-align: center;
+}
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1%;
+}
+/* .container2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 50%;
+} */
+.names{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
