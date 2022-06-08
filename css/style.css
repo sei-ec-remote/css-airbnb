@@ -6,7 +6,9 @@ h4, h2{
   color:#626365;
   text-align: center;
 }
-
+h2{
+  margin-top: 50px;
+}
 .images, .images2 {
   display: flex;
 }
@@ -14,6 +16,7 @@ h4, h2{
 img{
   width: 370px;
   height: 400px;
+  margin: 10px;
 }
 span{
   display:contents;
@@ -25,7 +28,9 @@ button{
   color: #626365;
   font-size: 15px;
   justify-content: center;
-  margin: 25px 35%;
+  margin-top: 20px;
+  margin-left: 430px;
+  margin-bottom: 40px;
   background-color: white;
   border-radius: 4px;
   border: 1px solid #626365;
@@ -38,17 +43,13 @@ button{
   color: white;
   margin-top: 1%;
 }
-/* .container2 {
-  position: absolute;
-  text-align: center;
-  color: white;
-  margin-top: 50%;
-} */
+
 .names{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
