@@ -1,3 +1,124 @@
 h1 {
-  color: salmon;
+  color: rgb(74,78,79);
+  font-family: sans-serif;
+  text-align: center;
+  
+  
+}
+h2{
+  position: relative;
+  font-family: sans-serif;
+  font-weight: 500;
+  top: 500px;
+  left: 850px;
+  color:rgb(74,78,79) ;
+
+}
+p {
+  color: rgb(74,78,79);
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+
+}
+p2{
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 500;
+  top: 620px;
+  left: 820px;
+  color:rgb(74,78,79) ;
+}
+
+.first-set > img{
+  display: inline-block;
+  height: 250px;
+  width: 225px;
+  position: relative;
+  left: 625px;
+  padding-bottom: 10px;
+ 
+}
+.first-set{
+  display: inline-block;
+  position: relative;
+}
+
+.second-set > img{
+  display: inline-block;
+  height: 250px;
+  width: 225px;
+  position: relative;
+  top: 500px;
+  left: -70px;
+  
+ 
+}
+.second-set{
+  display: inline-block;
+  position: relative;
+}
+
+.san-fran-2{
+  position: absolute;
+  top: 610px;
+  left: -35px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.sanoma{
+  position: absolute;
+  top: 610px;
+  left: -5px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.napa{
+  position: absolute;
+  top: 610px;
+  left: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.london{
+  position: absolute;
+  top: 100px;
+  left: 690px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.new-york{
+  position: absolute;
+  top: 100px;
+  left: 690px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.sanfrancisco{
+  position: absolute;
+  top: 100px;
+  left: 690px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.onclick{
+  font-size:0px;
 }
