@@ -1,3 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(224, 234, 234);
+}
+
 h1 {
-  color: salmon;
+  color: rgb(122, 124, 124);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#sfh {
+  margin-left: 26%;
+  position: absolute;
+  margin-top: 50px;
+  color: white;
+}
+
+#nyh {
+  position: absolute;
+  margin-left: 46%;
+  margin-top: 50px;
+  color: white;
+}
+
+#lnh {
+  margin-left: 65.5%;
+  position: absolute;
+  margin-top: 50px;
+  color: white;
+}
+
+#nph {
+  margin-left: 29%;
+  position: absolute;
+  margin-top: 90px;
+  color: white;
+}
+
+#soh {
+  margin-left: 46.7%;
+  position: absolute;
+  margin-top: 90px;
+  color: white;
+}
+
+#sf2h {
+  margin-left: 64%;
+  position: absolute;
+  margin-top: 90px;
+  color: white;
+}
+
+h4 {
+  color: grey;
+  text-align: center;
+  font-size: 11px;
+ 
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+#sf {
+  width: 150px;
+  height: 100px;
+}
+
+#sf img {
+  max-width: 200px;
+}
+
+#ny {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+#ny img {
+  max-width: 200px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#ln {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+#ln img {
+  max-width: 200px;
+}
+
+
+#middler {
+  max-width: 300px;
+  text-align: center;
+}
+
+#middler p {
+  font-size: 11px;
+}
+
+.heart {
+  margin-top: 30px;
+}
+
+#np {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+#np img {
+  max-width: 200px;
+}
+
+#so {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+#so img {
+  max-width: 200px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#sf2 {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+
+#sf2 img {
+  max-width: 200px;
+}
+
+button {
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  border: 2px solid rgb(194, 194, 194);
+}
+
+#seeall button {
+  margin-top: 20px;
 }
