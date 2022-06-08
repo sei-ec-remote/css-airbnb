@@ -1,13 +1,111 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@500&display=swap')
 
-h1 {
-  color: gr;
+/*VSC is jacked up, it won't recoginze the second html attribute
+as a selector without the first on present (yellow highlights)*/
+
+
+html {
+  background-color: #edefec;
+}
+
+html {
+  background-color: #edefec;
 }
 
 body {
+  background-color: #red;
+}
+
+.photos {
+  width:200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.photo-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.photoset {
+  grid-area: 1 / 1 / 2 / 2;
+  align-items: center;
+  justify-items: right;
+}
+
+h1 {
+  text-align: center;
   font-family: 'Poiret One', cursive;
   font-family: 'Poppins', sans-serif;
-  font-weight:  500;
+  
   color: #585b60;
-  background-color: #;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif;
+  color: #585b60;
+  
+
+}
+
+.top-area{ 
+  margin: 0 auto;
+  
+}
+
+/* .top-area{ 
+  grid-area: 1 / 1 / 2 / 2;
+  align-items: center;
+  justify-items: center;
+} */
+
+.bottom-area {
+  grid-area: 2/ 1 / 3 / 2;
+  align-items: center;
+  justify-items: center;
+}
+
+
+#btn1 {
+  /* display: block; */
+  top: 100px;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 100px 100px;
+  width: 22%;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 7px 40px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+
+
+}
+
+#btn2 {
+  display: block;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 100px 100px;
+  width: 22%;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 7px 40px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+}
+
+.photo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
 }
