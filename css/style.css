@@ -1,3 +1,73 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap" rel="stylesheet"> */
+body {
+  background-color: whitesmoke;
+  text-align: center;
+}
 h1 {
-  color: salmon;
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: 200;
+  font-weight: bold;
+  color: dimgray;
+  margin: 40px auto 0px auto;
+  
+}
+h2 {
+  color: dimgray;
+  margin: 5px auto 18px auto;
+  font-size: 15px;
+  font-weight: 500;
+}
+img {
+  width: 270px;
+  height: 275px;
+  margin: 10px;
+}
+.image-row {
+  display: inline-block;
+}
+span {
+  display: inline-block;
+  justify-content: center;
+}
+.city-names {
+  color: white;
+  text-align: justify;
+  display: inline-block;
+  position: absolute;
+  margin: 125px auto auto 100px;
+  
+}
+
+#sanfran {
+  color: white;
+  text-align: justify;
+  display: inline-block;
+  position: absolute;
+  margin: 125px auto auto 60px;
+}
+#napa {
+  color: white;
+  text-align: justify;
+  display: inline-block;
+  position: absolute;
+  margin: 125px auto auto 120px;
+}
+
+#sanfran2 {
+  color: white;
+  text-align: justify;
+  display: inline-block;
+  position: absolute;
+  margin: 125px auto auto 60px;
+}
+
+
+button {
+  margin: 30px auto 25px auto;
+  padding: 10px 70px 10px;
+  color: dimgrey;
+  background-color: white;
+  border: 1px dimgray solid;
+  font-weight: bold;
 }
