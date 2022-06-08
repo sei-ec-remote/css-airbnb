@@ -1,3 +1,76 @@
-h1 {
-  color: salmon;
+body{
+  background-color: #ECEFEC;
+  font-family:  sans-serif;
+  font-stretch: expanded;
+  color: #54585B;
+}
+.container{
+  text-align: center;
+  max-width: 960px;
+  position: relative;
+  left: 250px;
+}
+h1{
+  font-size: 26px;
+}
+.row {
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+ line-height: 100px;
+}
+img{
+ width: 240px;
+ height: 250px;
+ padding: 0 5px;
+}
+.input{
+  padding: 20px;
+ text-align: center;
+ font-family: sans-serif;
+
+}
+h5{
+  position: relative;
+  bottom: 17px;
+  font-weight: normal;
+}
+button{
+margin-top: 40px;
+  padding: 10px 70px;
+  border: .01px solid #bfc0be; 
+  color: #54585B;
+  font: sans-serif;
+  font-size: 11.5px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+.bottom-segment{
+  position: relative;
+  bottom: 65px
+}
+
+.first-heading, .second-heading{
+  position: relative;
+  top: 12px;
+}
+.san-francisco, .napa{
+  position: relative;
+  right: 250px;
+  bottom: 205px;
+  
+}
+.new-york, .sonoma{
+  position: relative;
+  bottom: 233px;
+}
+.london, .san-francisco-2{
+  position: relative;
+  bottom: 260px;
+  left: 255px;
+}
+.san-francisco, .new-york, .london, .napa, .sonoma, .san-francisco-2{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
