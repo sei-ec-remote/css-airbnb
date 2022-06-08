@@ -1,3 +1,60 @@
-h1 {
-  color: salmon;
+body{
+  background-color:rgba(240, 240, 228, 0.955);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+
+h1 {
+  color: black;
+  font-size:xx-large;
+  text-align: center;
+  margin:auto;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-size: smaller;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  position: relative;
+  color: White;
+  font-size: larger;
+  padding: 50px;
+  margin: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containerbutton {
+  position: relative;
+  margin-inline-start: auto;
+}
+.photos {
+  margin-bottom: 100px;
+}
+
+
+button {
+  text-align: center;
+  background-color: white-space;
+  color: black;
+  text-align: center;
+  border-color: black;
+  padding: 10px;
+  float: left;
+}
+
