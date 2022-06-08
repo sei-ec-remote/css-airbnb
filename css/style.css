@@ -1,3 +1,31 @@
-h1 {
+h1 h2 {
   color: salmon;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td{
+  padding: 15px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+button{
+  padding: 15px 12%;
+  margin: 40px;
+  font-weight: bold;
+  border: 1px solid gray;
+  background-color: white;
+  font-size: large;
 }
