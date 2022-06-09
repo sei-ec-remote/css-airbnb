@@ -1,3 +1,66 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;   
+  padding: 0;
 }
+.row {
+  border: 5px solid red;
+ display: flex;
+
+}
+
+   .column {
+  flex: 33.33%;
+  float: left;
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 5px solid black; 
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  }
+   
+.san-francisco{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   border: 5px solid green;
+}
+
+.new-york{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   border: 5px solid orange;
+}
+
+  .london{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     border: 5px solid palevioletred;
+     
+  }
+
+  .btn{
+border:2px solid rgb(187, 184, 184);
+border-radius: 3px;
+display: block;
+margin-left: 93%;
+margin-top: 8%;
+width:80%;
+height: 50%;
+background-color: white;
+color: rgb(100, 98, 98);
+padding: 20px;
+height: max-content;
+  }
+  
+  .btn h2{
+    text-align: center;
+     border: 5px solid tomato;
+  }
