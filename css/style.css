@@ -1,3 +1,73 @@
 h1 {
-  color: salmon;
+  color: dimgrey;
+  text-align: center;
+}
+
+h3 {
+  color: dimgrey;
+  text-align: center;
+}
+
+img {
+  max-width: 20%;
+  position: relative;
+  left: 375px;
+  right: 375px;
+  margin: 10px;
+}
+
+.img1 {
+  position: relative;
+  vertical-align: middle;
+  justify-content: center;
+  text-align: justify;
+}
+
+.text1 {
+position: absolute;
+left: 524px;
+bottom: 110px;
+color: white;
+}
+.text2 {
+  position: absolute;
+  left: 930px;
+  bottom: 110px;
+  color: white;
+}
+.text3 {
+  position: absolute;
+  left: 1360px;
+  bottom: 110px;
+  color: white;
+}
+
+
+.img2 {
+  justify-content: center;
+  text-align: justify;
+}
+
+.text4 {
+  position: absolute;
+  left: 560px;
+  bottom: 150px;
+  color: white;}
+
+.text5 {
+  position: absolute;
+  left: 950px;
+  bottom: 150px;
+  color: white;
+}
+
+.text6 {
+  position: absolute;
+  left: 1330px;
+  bottom: 150px;
+  color: white;
+}
+
+body {
+  text-align: center;
 }
