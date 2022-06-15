@@ -1,3 +1,50 @@
 h1 {
-  color: salmon;
+    color: navy;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.upper{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+} 
+
+.lower{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+} 
+
+.contain{
+    width: 30em;
+    height: 30em;
+    display: inline-block;
+    position: relative;
+}
+
+.contain>h2{
+    color: azure;
+    font-size: 2em;
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 25%;
+    
+}
+
+.lower-button>button{
+    padding: 2em 2em;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    color: blue;
+    font-size: 10px;
 }
