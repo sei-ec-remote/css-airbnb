@@ -1,5 +1,13 @@
-h1 h2 {
+h5 h2 {
   color: salmon;
+}
+h2 {
+  /* margin: 0px; */
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+h5 {
+  margin-top: 10px;
 }
 
 body {
@@ -15,17 +23,49 @@ table {
 td{
   padding: 15px;
 }
-
-img {
-  height: 200px;
-  width: 200px;
-}
-
-button{
-  padding: 15px 12%;
-  margin: 40px;
-  font-weight: bold;
+/* cange this a .tableItem */
+.see-all{
+  /* padding: 15px 220px; */
+  width: 229px;
+  height: 30px;
+  margin: 20px;
   border: 1px solid gray;
   background-color: white;
-  font-size: large;
+  font-size: small;
+}
+/* img { 
+  height: 200px;
+  width: 200px;
+} */
+.places { 
+  height: 239px;
+  width: 219px;
+  background-position:center;
+  /* background-size:cen; */
+  background-size: 353px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size:x-large;
+}
+/* for every button id we need add background. 
+        <img src="img/san-francisco.jpg" alt="">
+
+*/
+#san-francisco {
+  background-image: url(../img/san-francisco.jpg);
+}
+#new-york {
+  background-image: url(../img/new-york.jpg);
+}
+#london {
+  background-image: url(../img/london.jpg);
+}
+#napa {
+  background-image: url(../img/napa.jpg);
+}
+#sonoma {
+  background-image: url(../img/sonoma.jpg);
+}
+#san-francisco-2 {
+  background-image: url(../img/san-francisco-2.jpg);
 }
