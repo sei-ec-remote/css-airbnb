@@ -1,3 +1,65 @@
-h1 {
-  color: salmon;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 50px;
+  background-color: whitesmoke;
+
+}
+
+
+.heading {
+color: grey;
+}
+
+.subHeading {
+  color: darkgray;
+}
+
+.center {
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 15px;
+}
+  
+h3{
+  font-size: 25px;
+  position: absolute;
+  color: whitesmoke;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.image {
+  position: relative;
+  padding: 10px;
+  width: 33%;
+  display: inline-block;
+}
+
+.container::after {
+  display: table;
+  content: "";
+  clear:both;
+ 
+}
+
+.button{
+  font-size: 15px;
+  justify-content: center;
 }
