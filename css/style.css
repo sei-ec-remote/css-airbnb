@@ -1,3 +1,52 @@
+body {
+  text-align: center;
+  background: rgb(240, 240, 245);
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  margin: 10px 0 30px 0;
+}
+
 h1 {
-  color: salmon;
+  font-family: 'Comfortaa', cursive;
+  font-size: 22px;
+  margin: 30px 0 0 0;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0 10px;
+}
+
+.city {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+.squareImg {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+button {
+  background: white;
+  font-family: 'Comfortaa', cursive;
+  border: 1px solid lightgrey;
+  padding: 7px 65px;
+  margin: 30px;
+  font-size: 12px;
 }
