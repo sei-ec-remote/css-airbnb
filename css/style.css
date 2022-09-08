@@ -1,3 +1,79 @@
-h1 {
-  color: salmon;
+
+body{
+  background-color: lightgrey;
+  color: #616161;
+ margin: 0 auto;
+ text-align: center;
+ font-family: 'Roboto', sans-serif;
+ ;
+}
+.title{
+  padding-bottom: -100px;
+  margin-bottom: 0%;
+}
+.subheading{
+  padding-top: -100px;
+  margin-top: 0%;
+}
+.city_container{
+  color:white;
+  display: inline-flex;  
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.city{
+  height: 250px;
+  width: 250px;
+  margin: 0 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+}
+
+#SanFranciso{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco.jpg?raw=true");
+}
+
+#NewYork{
+  background-image: url('https://github.com/sei-ec-remote/css-airbnb/blob/main/img/new-york.jpg?raw=true');
+  
+}
+
+#London{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/london.jpg?raw=true");
+}
+#Napa{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/napa.jpg?raw=true");
+}
+#Sonoma{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/sonoma.jpg?raw=true");
+}
+#SanFranciso2{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco-2.jpg?raw=true");
+}
+button{
+    width: 250px;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+
 }
