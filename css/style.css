@@ -1,3 +1,76 @@
 h1 {
-  color: salmon;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+h2 {
+  font-size: 12px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+span {
+  position: center;
+}
+
+body {
+  background: #edefec;
+  color:#5b5e61;
+  position: center;
+  font-family: Arial,sans-serif;
+  text-align: center;
+}
+.imgs div{
+  width: 700;
+  margin: 0 auto;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.imgs span {
+  margin: auto;
+  height: 50px;
+  width: 300px;
+  margin: 8px;
+}
+
+.button {
+  background: white;
+  color: #5b5e61;
+  border-color: #a7a7a7;
+  border-radius: 3px;
+  padding: 12px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.box{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+  position: absolute;
+  z-index: 999;
+  border-color: #5b5e61;
+  
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 225%; /* Adjust this value to move the positioned div up and down */
+
+  color: #fff;
+  width: 80%; /* Set the width of the positioned div */
 }
