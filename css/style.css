@@ -1,3 +1,44 @@
-h1 {
-  color: salmon;
+body{
+  background-color: rgb(219, 217, 214);
+  font-family:  Arial, Helvetica, sans-serif;
+}
+h1,p{
+  color: rgb(87, 87, 87);
+  text-align: center;
+}
+
+.center-text {
+  position: absolute;
+  margin: auto 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  white-space: nowrap;
+  text-size-adjust: 50%;
+}
+.center-images{
+  margin: auto;
+  width: 50%;
+}
+.image-container{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  object-fit: cover;
+}
+.square-pic{
+  height: 250px;
+  width: 250px;
+}
+.button-box{
+  margin: auto;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  height: 50px;
+  width: 250px;
 }
