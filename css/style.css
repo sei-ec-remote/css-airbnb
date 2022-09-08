@@ -1,3 +1,107 @@
 h1 {
-  color: salmon;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgba(98, 93, 92, 1);
+  font-family: sans-serif;
+  text-align: center;
+  font-style: bold;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0px;
+  color: rgba(98, 93, 92);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  margin-top: 30px;
+  height: 325px;
+  width: 325px;
+}
+
+.images {
+  text-align: center;
+  margin:0 auto;
+  display: block;
+}
+
+.button1 {
+  margin:0 auto;
+  display: block;
+  font-style: bold;
+  border: 2px solid rgba(98, 93, 92);
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  color: rgba(98, 93, 92, 1);
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+
+body {
+  background-color: #e3e1e1;
+}
+
+span {
+  display: block;
+  font-size: 36px;
+}
+
+small {
+  transform: translate(-50%, -50%);
+}
+
+/* Container holding the image and the text */
+.container {
+  margin-left: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  font-size: 25px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  margin-left: 12.75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.button2 {
+  margin-left: 380px;
+  font-style: bold;
+  border: 2px solid rgba(98, 93, 92);
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  color: rgba(98, 93, 92, 1);
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-top: 1%;
 }
