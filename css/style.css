@@ -15,7 +15,7 @@ h1,p{
   transform: translate(-50%, -50%);
   color: white;
   white-space: nowrap;
-  text-size-adjust: 50%;
+  font-size: 24px;
 }
 .center-images{
   margin: auto;
@@ -39,6 +39,7 @@ h1,p{
   border-style: solid;
   border-width: 1px;
   border-color: gray;
+  border-radius: 2px;
   height: 50px;
   width: 250px;
 }
