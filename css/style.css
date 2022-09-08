@@ -22,14 +22,15 @@ h1,p{
   width: 50%;
 }
 .image-container{
+  margin:0 5px 0 5px;
   position: relative;
   text-align: center;
   display: inline-block;
-  object-fit: cover;
 }
 .square-pic{
   height: 250px;
   width: 250px;
+  object-fit: cover;
 }
 .button-box{
   margin: auto;
