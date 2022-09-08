@@ -26,12 +26,37 @@ body{
   position: relative;
   text-align: center;
   color: white;
+  position: relative;
 }
 
 
 
 
 .city{
+  position:relative;
+}
+.city p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+#SanFranciso{
+  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco.jpg?raw=true");
+  padding: 0;
+  height: 250px;
+  width: 250px;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  background-position: center center;
+  background-size: cover;
+}
+
+#NewYork{
+  background-image: url('https://github.com/sei-ec-remote/css-airbnb/blob/main/img/new-york.jpg?raw=true');
   padding: 0;
   height: 250px;
   width: 250px;
@@ -42,37 +67,67 @@ body{
   height: 250px;
   background-position: center center;
   background-size: cover;
- 
-  
-}
-
-#SanFranciso{
-  background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco.jpg?raw=true");
-}
-
-#NewYork{
-  background-image: url('https://github.com/sei-ec-remote/css-airbnb/blob/main/img/new-york.jpg?raw=true');
-  
 }
 
 #London{
   background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/london.jpg?raw=true");
+  padding: 0;
+  height: 250px;
+  width: 250px;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
 }
 #Napa{
   background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/napa.jpg?raw=true");
+  padding: 0;
+  height: 250px;
+  width: 250px;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
 }
+
 #Sonoma{
   background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/sonoma.jpg?raw=true");
+  padding: 0;
+  height: 250px;
+  width: 250px;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
 }
 #SanFranciso2{
   background-image: url("https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco-2.jpg?raw=true");
+  padding: 0;
+  height: 250px;
+  width: 250px;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
 }
 button{
     width: 250px;
     background-color: white;
     font-weight: bold;
     text-align: center;
-    margin: 40px auto;
+    margin: 2px auto;
     padding: 10px 20px;
     border: 1px solid black;
     font size: 16px;
