@@ -1,3 +1,30 @@
-h1 {
-  color: salmon;
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+div {
+  text-align: center;
+  margin: 20px;
+  margin-top: 70px;
+}
+
+body {
+  text-align: center;
+}
+
+span {
+  text-align: center;
+  margin: 50px;
+  border: 20px;
+  padding: 50px;
+
+}
+
+button {
+  margin-top: 40px;
 }
