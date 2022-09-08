@@ -1,3 +1,31 @@
 h1 {
-  color: salmon;
+  color: black;
+  text-align: center;
+}
+h2 {
+  color:black;
+  text-align: center;
+}
+.showroom {
+  --s: 150px; 
+  --g: 10px;  
+
+  gap: var(--g);
+  width: calc(3*var(--s) + 2*var(--g)); 
+  aspect-ratio: 1;
+  grid-template-columns: repeat(3, auto);
+  display: grid;
+  margin: 0 auto;
+  grid-row-gap: 5rem;
+}
+.showroom > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+button {
+  display: grid;
+  justify-content: center;
 }
