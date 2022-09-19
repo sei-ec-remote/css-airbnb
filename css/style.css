@@ -1,3 +1,64 @@
 h1 {
   color: salmon;
+  display: flex;
+  justify-content: center;
 }
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.images-row1 {
+  display: flex;
+}
+
+#sf1 {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+#ny {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+#london {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+
+#napa {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+#sonoma {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+#sf2 {
+  margin: 10px;
+  height: 30vh;
+  width: 30vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vw;
+  background-image: url("/Users/joshdoyle/sei/deliverables/css-airbnb/css-airbnb/img/san-francisco.jpg");
