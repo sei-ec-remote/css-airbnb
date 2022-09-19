@@ -16,49 +16,100 @@ p {
 
 .images-row1 {
   display: flex;
+  justify-content: center;
 }
 
-#sf1 {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
+.images-row2 {
+  display: flex;
+  justify-content: center;
 }
 
-#ny {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
-}
-
-#london {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
-}
-
-
-#napa {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
-}
-
-#sonoma {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
-}
-
-#sf2 {
-  margin: 10px;
-  height: 30vh;
-  width: 30vw;
-}
-
-.container {
+.image1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  width: 30vw;
-  background-image: url("/Users/joshdoyle/sei/deliverables/css-airbnb/css-airbnb/img/san-francisco.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/san-francisco.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 0;
+}
+
+.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/new-york.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/london.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.image4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/napa.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.image5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/sonoma.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.image6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-image: url("/img/san-francisco-2.jpg");
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.image4 img {
+  height: 10px;
+  width: 10px;
+}
