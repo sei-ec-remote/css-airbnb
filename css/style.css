@@ -1,3 +1,38 @@
-h1 {
-  color: salmon;
+.head {
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+.picture {
+  width: 350px;
+  height: 300px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+div{
+  text-align: center;
+  position: relative;
+
+}
+
+/* span {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  
+
 }
