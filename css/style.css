@@ -1,3 +1,41 @@
-h1 {
-  color: salmon;
+ody {
+  background-color:rgb(247, 247, 245);
+}
+.mainLine {
+  margin-top: 50px;
+  text-align: center;
+  color:rgb(95, 93, 93);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {
+  margin-bottom: 50px;
+  margin-top: -15px;
+  text-align: center;
+  color:rgb(95, 93, 93);
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+}
+.imgBlock {
+  text-align: center;
+}
+.img {
+  margin: 0px 15px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.seeBtn { 
+  background-color: white;
+  margin: 50px auto;
+  padding: 10px 25px;
+  border: 1px solid rgb(95, 93, 93);
+  width: 300px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color:rgb(95, 93, 93);
+  font-family:Arial, Helvetica, sans-serif;
 }
