@@ -1,3 +1,26 @@
-h1 {
-  color: salmon;
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.row-of-spans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+}
+
+span {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  border: 20px;
+  padding: 150px;
 }
