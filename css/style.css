@@ -9,6 +9,16 @@ body {
 h1,h4 {
   color: rgb(80, 80, 80);
 }
+.text-box {
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  border: auto;
+  padding: 20px;
+  color: white;
+  font-size: 36px;
+}
 
 .imgs {
   width: 250px;
@@ -23,25 +33,14 @@ h1,h4 {
   padding: 10px 50px;
   margin: 30px 500px;
   background: white;
+  color: grey
 }
-.text-box {
-  position: absolute;
-  width: 250px;
-  height: 400px;
-  margin: auto;
-  border: auto;
-  padding: 20px;
-  color: white;
-  font-size: 50px;
-}
+
 .container {
   position: relative;
-  text-align: center;
+  display: inline-block;
   color: white;
 }
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
