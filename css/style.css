@@ -30,6 +30,7 @@ button {
   padding: 10px 75px 10px 75px;
   border: 2px solid rgba(100,100,100,.40);
   color: #3D3D3D;
+  border-radius: 5px;
 }
 p.images {
   display: inline-block;
