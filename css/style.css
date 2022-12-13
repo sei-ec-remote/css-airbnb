@@ -1,9 +1,11 @@
 * {
   text-align: center;
 }
-body{
+
+body {
   background: gainsboro;
 }
+
 h1,h4 {
   color: rgb(80, 80, 80);
 }
