@@ -1,7 +1,24 @@
 body {
   background: gainsboro;
+  text-align: center;
 }
 
 h1,h4 {
   color: rgb(80, 80, 80);
+}
+
+.img-text {
+  position: absolute;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1200px;
+}
+
+p.box{
+  border: solid black 1px;
+  margin: 100px 1150px;
+  padding: 25px;
+  color:rgb(80, 80, 80);
+  background: whitesmoke;
 }
