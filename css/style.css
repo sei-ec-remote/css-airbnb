@@ -1,3 +1,70 @@
+body {
+  background: rgba(175,175,175,.40);
+  font-family: 'DM Sans', sans-serif;
+  color: rgba(100,100,100,1);
+  font-weight: 400;
+}
 h1 {
-  color: salmon;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: center;
+  font-size: 30px;
+}
+h2 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+div.imgblocks {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+button {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 75px 10px 75px;
+  border: 2px solid rgba(100,100,100,.40);
+  color: #3D3D3D;
+}
+p.images {
+  display: inline-block;
+  height: 0;
+  width: 275px;
+  text-align: center;
+  margin: 0 10px 30px 10px;
+  padding: 150px 0;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+p.sanfran1 {
+  background: url('https://i.imgur.com/NKu5pfk.jpg');
+  background-size: cover;
+  font-weight: bolder;
+}
+p.newyork {
+  background: url('https://i.imgur.com/85IMHUz.jpg');
+  background-size: cover;
+}
+p.london {
+  background: url('https://i.imgur.com/1bfD5XW.jpg');
+  background-size: cover;
+}
+p.napa {
+  background: url('https://i.imgur.com/ElT9sFK.jpg');
+  background-size: cover;
+}
+p.sonoma {
+  background: url('https://i.imgur.com/IDKYYqK.jpg');
+  background-size: cover;
+}
+p.sanfran2 {
+  background: url('https://i.imgur.com/mPcG7cE.jpg');
+  background-size: cover;
 }
