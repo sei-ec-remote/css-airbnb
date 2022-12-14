@@ -5,6 +5,8 @@ div.guide_pics {
   max-width: 900px
 }
 div.icons {
+  display: inline-block;
+  height: 250px;
   width: 30%
 }
 #san_fran1 {
