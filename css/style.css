@@ -1,17 +1,36 @@
-h1 {
-  color: salmon;
+body {
   text-align: center;
+  color: gray;
+  font-family: Helvetica, sans-serif;
 }
-p {
-  text-align: center;
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  width: 160px;
+  margin: 30px auto;
+  padding: 5px 25px;
+  border: 2px solid gray;
 }
 div.guide_pics {
-  max-width: 900px
+  width: 50%;
+  margin: auto;
+  max-width: 900px;
 }
 div.icons {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
   display: inline-block;
-  height: 250px;
+  margin: 7px;
   width: 30%;
+  height: 230px;
+  line-height: 230px;
   background-size: cover;
 }
 #san_fran1 {
@@ -19,4 +38,16 @@ div.icons {
 }
 #nyc {
   background-image: url(img/new-york.jpg);
+}
+#london {
+  background-image: url(img/london.jpg);
+}
+#napa {
+  background-image: url(img/napa.jpg);
+}
+#sonoma {
+  background-image: url(img/sonoma.jpg);
+}
+#san_fran2 {
+  background-image: url(img/san-francisco-2.jpg);
 }
