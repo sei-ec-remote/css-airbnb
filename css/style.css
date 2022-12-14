@@ -1,3 +1,59 @@
+body {
+  font-family: arial;
+  background: #efefef;
+  text-align: center
+}
 h1 {
-  color: salmon;
+  color: #454545;
+  margin: 50px auto 5px auto;
+}
+h3 {
+  color: #454545;
+}
+div {
+  width: 275px;
+  height: 275px;
+  text-align: center;
+  display: inline-block;
+  margin: 7px;
+}
+button {
+  font-weight: bold;
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 35px;
+  padding: 5px 30px;
+  color: #454545;
+  background: whitesmoke;
+  border: 1px solid #454545;
+}
+.citytext {
+  Margin: 120px auto;
+  color: white
+}
+
+#SaFra {
+  background-image: url('/css-airbnb/img/san-francisco.jpg');
+  background-size: cover;
+}
+#NYC {
+  background-image:  url('/css-airbnb/img/new-york.jpg');
+  background-size: cover;
+}
+#London {
+  background-image:  url('/css-airbnb/img/london.jpg');
+  background-size: cover;
+}
+#Napa {
+  background-image: url('/css-airbnb/img/napa.jpg');
+  background-size: cover;
+}
+#Sonoma {
+  background-image: url('/css-airbnb/img/sonoma.jpg');
+  background-size: cover;
+}
+#SaFra2 {
+  background-image: url('/css-airbnb/img/san-francisco-2.jpg');
+  background-size: cover;
 }
