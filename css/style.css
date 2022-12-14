@@ -11,7 +11,7 @@ h3 {
   text-align: center;
 }
 button {
-  left: 39.5%;
+  left: 44%;
   position: absolute;
   width: 260px;
   height: 30px;
@@ -24,36 +24,36 @@ img {
   width: 300px;
   padding: 5px;
   margin: 5px;
-  margin-left: 80px;
+  margin-left: 235px;
   
 }
 .pic1 {
   color: white;
   font-size: 27px;
   position: absolute;
-  margin: 140px 150px;
+  margin: 140px 290px;
   font-family: 'Prompt', sans-serif;
 }
 .pic2 {
   color: white;
   font-size: 27px;
   position: absolute;
-  margin: 140px 570px;
+  margin: 140px 870px;
   font-family: 'Prompt', sans-serif;
 }
 .pic3 {
   color: white;
   font-size: 27px;
   position: absolute;
-  margin: 140px 985px;
+  margin: 140px 1450px;
   font-family: 'Prompt', sans-serif;
 }
 #napa {
-  margin: 140px 200px;
+  margin: 140px 340px;
 }
 #sonoma {
-  margin: 140px 580px;
+  margin: 140px 890px;
 }
 #sacramento {
-  margin: 140px 960px;
+  margin: 140px 1440px;
 }
