@@ -1,3 +1,59 @@
+body {
+  background: #D3D3D3;
+}
 h1 {
-  color: salmon;
+  color: #303030;
+  text-align: center;
+}
+
+h3 {
+  color: grey;
+  text-align: center;
+}
+button {
+  left: 39.5%;
+  position: absolute;
+  width: 260px;
+  height: 30px;
+  font-weight: bold;
+  border: 1px solid grey;
+  color: 	#606060;
+}
+img {
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  
+}
+.pic1 {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  margin: 140px 150px;
+  font-family: 'Prompt', sans-serif;
+}
+.pic2 {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  margin: 140px 570px;
+  font-family: 'Prompt', sans-serif;
+}
+.pic3 {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  margin: 140px 985px;
+  font-family: 'Prompt', sans-serif;
+}
+#napa {
+  margin: 140px 200px;
+}
+#sonoma {
+  margin: 140px 580px;
+}
+#sacramento {
+  margin: 140px 960px;
 }
