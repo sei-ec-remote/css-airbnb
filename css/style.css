@@ -1,3 +1,89 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #ecefec;
+  color: #595d60;
+  text-align: center;
+  font-family: 'Circular-Book';
 }
+h2 {
+  font-family: 'Circular-Medium';
+  font-size: 2rem;
+  margin: 1rem;
+}
+section {
+  margin: 1rem 0 4rem;
+}
+.container {
+  max-width: 1000px;
+  margin: 4rem auto;
+}
+.rail {
+  display: flex;
+  margin: 3rem;
+}
+.rail__card {
+  width: 30%;
+  height: 18rem;
+  /* height: 100px; */
+  margin: 0 auto;
+  position: relative;
+  background-position: center;
+}
+#img1 {
+  background-image: url(../img/san-francisco.jpg);
+}
+#img2 {
+  background-image: url(../img/new-york.jpg);
+}
+#img3 {
+  background-image: url(../img/london.jpg);
+}
+#img4 {
+  background-image: url(../img/napa.jpg);
+}
+#img5 {
+  background-image: url(../img/sonoma.jpg);
+}
+#img6 {
+  background-image: url(../img/san-francisco-2.jpg);
+}
+.rail__card span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  color: white;
+  font-family: 'Circular-Medium';
+  font-size: 1.5rem;
+}
+.rail__card img{
+  width: 100%;
+}
+
+.button {
+  background-color: white;
+  max-width: 33%;
+  border: 1px solid #c4c4c4;
+  padding: 0.5rem;
+  margin: 2rem auto;
+}
+
+@font-face{
+  font-family: "Circular-Medium";
+  src: url('../fonts/circular-medium.otf'),
+  url('../fonts/circular-medium.otf'); /* IE */
+}
+
+@font-face{
+  font-family: "Circular-Book";
+  src: url('../fonts/circular-book.otf'),
+  url('../fonts/circular-book.otf'); /* IE */
+}
+@font-face{
+  font-family: "Circular-Black";
+  src: url('../fonts/circular-black.otf'),
+  url('../fonts/circular-black.otf'); /* IE */
+}
+
+
+
