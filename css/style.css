@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  color: #57595E;
+  background-color: #EDEFEC;
+}
+
 h1 {
-  color: salmon;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: lighter;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+}
+
+button {
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  padding: 8px 60px;
+  border: 1px solid #CFCFCF;
+  background-color: #FFFFFF;
+  color: #57595E;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.container {
+  margin: 5px;
+  position: relative;
+}
+
+.place {
+  color: white;
+  top: 43%;
+  position: absolute;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.san-fran {
+  left: 22%;
+}
+
+.new-york {
+  left: 30%;
+}
+
+.london {
+  left: 35%;
+}
+
+.napa {
+  left: 40%;
+}
+
+.sonoma {
+  left: 33%;
 }
