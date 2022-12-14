@@ -1,3 +1,83 @@
 h1 {
-  color: salmon;
+  color: grey;
+  text-align: center;
+  margin: auto;
+}
+h2 {
+  color: grey;
+  text-align: center;
+}
+h3 {
+  color: grey;
+  text-align: center;
+  text-decoration: 15px;
+}
+
+.top-left {
+  position:absolute;
+  top: 200px;
+  left: 300px;
+  color:aliceblue;
+  font-size: x-large;
+}
+
+.center {
+  position: absolute;
+  top: 200px;
+  color:aliceblue;
+  font-size: x-large;
+  
+ 
+}
+.top-right {
+  position:absolute;
+  top: 200px;
+  right: 300px;
+  color:aliceblue;
+  font-size: x-large;
+}
+.bottom-left {
+  position: absolute;
+  bottom: -40px;
+  left: 350px;
+  color:aliceblue;
+  font-size: x-large;
+}
+.bottom-center {
+  position: absolute;
+  bottom: -40px;
+  color:aliceblue;
+  font-size: x-large;
+}
+.bottom-right {
+  position: absolute;
+  bottom: -40px;
+  right: 300px;
+  color:aliceblue;
+  font-size: x-large;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+}
+.City {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  
+}
+.center {
+  position:absolute;
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  color: grey;
+  margin:auto;
 }
