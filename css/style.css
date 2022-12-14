@@ -12,21 +12,23 @@ body {
   row-gap: 20px;
   justify-items: center;
   height: 100vh;
-  width: 100%;
+  width: 600px;
   margin: 0 auto;
  
 }
 
 .block-1 {
-  width: 900px;
+  max-width: 600px;
   margin: auto;
 }
 .grid-img {
   display: block;
+  max-width: 100%;
       
 }
 .box-a {
   grid-column: 1 / span 3;
+  
 }
 
 .box-e {
