@@ -12,6 +12,9 @@ h3 {
   text-align: center;
   text-decoration: 15px;
 }
+body {
+  background: lightgray;
+}
 
 .top-left {
   position:absolute;
