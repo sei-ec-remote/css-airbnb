@@ -7,7 +7,7 @@ body {
 
 .grid {
   display:grid;
-  grid-template: repeat(6,auto) / repeat(3, auto);
+  grid-template: repeat(8,auto) / repeat(3, auto);
   column-gap: 10px;
   row-gap: 5px;
   justify-items: center;
@@ -36,4 +36,13 @@ body {
 .box-e {
   grid-row: 3 / span 1;
   grid-column: span 3;
+}
+
+
+
+.img-text {
+  position: absolute;
+  
+  color: white;
+  font-size: 50px;
 }
