@@ -10,14 +10,14 @@ body {
 
 h1 {
   font-size: 28px;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 h2 {
   font-size: 15px;
   font-weight: lighter;
-  margin-top: -15px;
-  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 img {
@@ -29,7 +29,7 @@ button {
   font-size: 12px;
   font-weight: bold;
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 10px 93px;
   border: 1px solid #CFCFCF;
   background-color: #FFFFFF;
