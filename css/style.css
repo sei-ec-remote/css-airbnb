@@ -5,31 +5,32 @@ body {
   text-align: center;
   color: #57595E;
   background-color: #EDEFEC;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 28px;
   margin-top: 25px;
 }
 
 h2 {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: lighter;
   margin-top: -15px;
   margin-bottom: 20px;
 }
 
 img {
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  height: 300px;
 }
 
 button {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   display: block;
   margin: 20px auto;
-  padding: 8px 60px;
+  padding: 10px 93px;
   border: 1px solid #CFCFCF;
   background-color: #FFFFFF;
   color: #57595E;
@@ -40,7 +41,7 @@ button {
   justify-content: center;
   flex-direction: row;
   align-items: baseline;
-  gap: 10px;
+  gap: 20px;
 }
 
 .container {
@@ -50,29 +51,10 @@ button {
 
 .place {
   color: white;
-  top: 43%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  margin: 0 auto;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
-}
-
-.san-fran {
-  left: 22%;
-}
-
-.new-york {
-  left: 30%;
-}
-
-.london {
-  left: 35%;
-}
-
-.napa {
-  left: 40%;
-}
-
-.sonoma {
-  left: 33%;
 }
