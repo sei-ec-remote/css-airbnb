@@ -1,3 +1,101 @@
+body {
+  background-color: #e2e0e0;
+}
 h1 {
-  color: salmon;
+  text-align: center;
+  color: rgb(93, 91, 91);
+  font-size: medium;
+  line-height: 0.1;
+}
+h2 {
+  text-align: center;
+  color: rgb(135, 133, 133);
+  font-size: xx-small;
+}
+.top {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+} 
+
+.sanfrantxt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 15px;
+  text-align: center;
+  color: white;
+}
+.newyorktxt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 170px;
+  text-align: center;
+  color: white;
+}
+.londontxt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 325px;
+  text-align: center;
+  color: white;
+}
+h3 {
+  text-align: center;
+  color: rgb(93, 91, 91);
+  font-size: x-small;
+}
+h4 {
+  text-align: center;
+  color: rgb(93, 91, 91);
+  font-size: medium;
+  line-height: 0.1;
+  
+}
+h5 {
+  line-height: 0.1;
+  text-align: center;
+  color: rgb(135, 133, 133);
+  font-size: xx-small;
+}
+.bottom {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+
+}
+.napatxt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 50px;
+  text-align: center;
+  color: white;
+}
+.sonomatxt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 180px;
+  text-align: center;
+  color: white;
+}
+.sanfran2txt {
+  position: absolute;
+  font-size: 20px;
+  top: 65px;
+  left: 300px;
+  text-align: center;
+  color: white;
+}
+h6 {
+  text-align: center;
+  color: rgb(93, 91, 91);
+  font-size: x-small;
 }
