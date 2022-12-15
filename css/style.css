@@ -1,3 +1,53 @@
+body {
+  text-align: center;
+  background-color: rgb(224, 237, 237);
+  font-family: "Geometric Sans Serif v1", sans-serif;
+  margin: 45px;
+}
+
 h1 {
-  color: salmon;
+  margin: 2px;
+}
+
+p {
+  margin: 30px;
+  padding: 0px;
+}
+
+.h1-two{
+
+  margin-top: -80px;
+}
+
+
+h2{
+
+  margin-top: -130px;
+  color: aliceblue;
+}
+
+
+.container  {
+  display: inline-block;
+  margin: auto;
+  border: 4px;
+  padding: 7px;
+}
+
+.container2 {
+  display: inline-block;
+  margin: auto;
+  border: 4px;
+  padding: 7px;
+}
+
+button {
+  margin: 130px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(249, 249, 249, 0.112);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
 }
