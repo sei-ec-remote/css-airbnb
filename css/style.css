@@ -1,3 +1,34 @@
+style {
+  background-color: rgb(218,212,200)
+}
+
 h1 {
-  color: salmon;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+p{
+  text-align: center;
+}
+
+.image {
+  display: incline-block;
+  position: relative;
+}
+
+#pictures{
+  object-fill: cover;
+width: 250px:
+height: 300px;
+padding: 10px 10px 0 10px:
+}
+
+div.location {
+  color: white:
+  left: 0;
+  postion: absolute;
+  text-align: center::
+  top: 150px
+  width: 100px;
+
 }
