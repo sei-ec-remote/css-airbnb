@@ -1,34 +1,69 @@
-style {
-  background-color: rgb(218,212,200)
-}
-
-h1 {
+ .container {
   text-align: center;
-  padding: 40px 0 0 0;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+h2 {
+  font-weight:  bold;
+  margin-top:  0;
+  margin-bottom:  24px;
+}
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+.pictures-container {
+  margin: 0 auto;
+  height: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+.picture {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.picture p {
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  ;
 }
 
-p{
-  text-align: center;
+.san-francisco-bg {
+  background-image:  url(../img/san-francisco.jpg);
+}
+.new-york-bg {
+  background-image: url(../img/new-york.jpg) ;
+}
+.london-bg {
+  background-image: url(../img/london.jpg) ;
+}
+.napa-bg {
+  background-image: url(../img/napa.jpg) ;
+}
+.sonoma-bg {
+  background-image: url(../img/sonoma.jpg) ;
+}
+.san-francisco2-bg {
+  background-image: url(../img/san-francisco-2.jpg) ;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.button {
+  width: 250px;
+  background-color: white;
+  border: 1px grey solid;
+  padding: 10px;
 }
 
-.image {
-  display: incline-block;
-  position: relative;
-}
 
-#pictures{
-  object-fill: cover;
-width: 250px:
-height: 300px;
-padding: 10px 10px 0 10px:
-}
-
-div.location {
-  color: white:
-  left: 0;
-  postion: absolute;
-  text-align: center::
-  top: 150px
-  width: 100px;
-
-}
