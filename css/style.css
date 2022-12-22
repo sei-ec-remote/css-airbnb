@@ -1,3 +1,4 @@
 h1 {
-  color: salmon;
+  color: black;
+  justify-content: flex-end;
 }
